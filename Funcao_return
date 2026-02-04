@@ -1,0 +1,24 @@
+def lin():
+    print("=" * 40)
+
+def saudacao(nome):
+    print(f"Olá, {nome}")
+saudacao("Lukinhas")
+
+lin()
+
+def apresentacao():
+    nome = input("Digite seu nome: ")
+    print(f"Seja bem-vindo, {nome}")
+apresentacao()
+
+lin()
+
+def somar(a, b):
+    soma = a + b
+    print(f"A soma é {soma}")
+somar(5,20)
+
+lin()
+
+#teste
